@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            margin: 10px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.178);
+            padding: 3px;
+            box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.5);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgba(190, 122, 33, 0.534);
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+        article {
+            background-color: grey;
+
+        }
+        article > aside {
+            background-color: antiquewhite;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 50px;
+            box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.616);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0%;
+        }
+        footer > p {
+            margin: 4px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10%;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/"> Link</a>
+            <a href="https://www.youtube.com/"> Link</a>
+            <a href="https://www.youtube.com/">Link </a>
+            <a href="https://www.youtube.com/">Link</a>
+            <a href="https://www.youtube.com/">Link</a>
+
+        </nav>
+        </header>
+    <main>
+        <section id="assutos">
+        </section>
+        <section id="notícias">
+            <article>   <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga numquam odit, repudiandae doloribus facilis, itaque porro soluta alias nam voluptates quibusdam, id dolorum! Hic saepe enim tempora pariatur odio.</p>
+                <aside>
+                    <p>Artigo produzido por Fulano</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Jaqueline Meireles</p>
+    </footer>
+</body>
+</html>

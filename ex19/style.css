@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(40, 185, 52, 0.568);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+color: rgba(3, 102, 12, 0.781) ;
+}
+h1#principal {
+text-align: center;
+color: black;
+background-color: aliceblue;
+}
+.sec {
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.seg {
+    color: blue;
+}
+h2 {
+color: rgb(2, 134, 13) ;
+}
